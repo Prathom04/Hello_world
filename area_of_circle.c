@@ -1,9 +1,8 @@
 #include <stdio.h>
-float main(){
+int main(){
 float radius;
-printf("enter the value of radius.");
 scanf("%f",&radius);
-float sum = 3.1416 * radius * radius;
-printf("The area of the circle is %.2f", sum);
+double sum = 3.141592653 * radius * radius;
+printf("%.9lf", sum);
 return 0;
 }
